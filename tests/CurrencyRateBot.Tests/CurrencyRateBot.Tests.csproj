@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\CurrencyRateBot.Web.csproj" />
+    <ProjectReference Include="..\..\src\CurrencyRateBot.Web\CurrencyRateBot.Web.csproj" />
   </ItemGroup>
 
 </Project>
