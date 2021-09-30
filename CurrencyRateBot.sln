@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyRateBot", "src\CurrencyRateBot.csproj", "{C0EF8EAD-04E7-482A-AD43-991ACE204063}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyRateBot.Web", "src\CurrencyRateBot.Web.csproj", "{C0EF8EAD-04E7-482A-AD43-991ACE204063}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{0CC48DD4-0B6E-4CB0-B9D7-6D15180301E4}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyRateBot.Tests", "tests\CurrencyRateBot.Tests\CurrencyRateBot.Tests.csproj", "{EC51BE13-6B31-43F5-BD5F-98CC0C6A78A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C0EF8EAD-04E7-482A-AD43-991ACE204063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0EF8EAD-04E7-482A-AD43-991ACE204063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0EF8EAD-04E7-482A-AD43-991ACE204063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC51BE13-6B31-43F5-BD5F-98CC0C6A78A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC51BE13-6B31-43F5-BD5F-98CC0C6A78A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC51BE13-6B31-43F5-BD5F-98CC0C6A78A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC51BE13-6B31-43F5-BD5F-98CC0C6A78A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
