@@ -1,9 +1,9 @@
-﻿using CurrencyRateBot.Web.Service;
-using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
+using CurrencyRateBot.Web.Service;
+using Microsoft.AspNetCore.Mvc;
 
-namespace CurrencyRateBot.Controllers
+namespace CurrencyRateBot.Web.Controllers
 {
     [ApiController]
     [Route("api/currency")]

@@ -1,4 +1,4 @@
-﻿namespace CurrencyRateBot.Web
+namespace CurrencyRateBot.Web
 {
     public class CurrencyRateServerOptions
     {

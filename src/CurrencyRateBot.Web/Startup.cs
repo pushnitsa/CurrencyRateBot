@@ -1,4 +1,3 @@
-using CurrencyRateBot.Web;
 using CurrencyRateBot.Web.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -7,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-namespace CurrencyRateBot
+namespace CurrencyRateBot.Web
 {
     public class Startup
     {

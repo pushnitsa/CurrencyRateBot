@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
-namespace CurrencyRateBot.Controllers
+namespace CurrencyRateBot.Web.Controllers
 {
     [Route("/")]
     [ApiController]
