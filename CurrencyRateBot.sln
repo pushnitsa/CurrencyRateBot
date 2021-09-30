@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src/CurrencyRateBot", "src/CurrencyRateBot.csproj", "{C0EF8EAD-04E7-482A-AD43-991ACE204063}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyRateBot", "src\CurrencyRateBot.csproj", "{C0EF8EAD-04E7-482A-AD43-991ACE204063}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{0CC48DD4-0B6E-4CB0-B9D7-6D15180301E4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
