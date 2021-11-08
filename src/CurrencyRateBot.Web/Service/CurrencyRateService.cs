@@ -24,7 +24,7 @@ namespace CurrencyRateBot.Web.Service
         {
             var cacheKey = CacheKey.GetKey(GetType(), nameof(GetCurrencyRateAsync), from, to);
 
-            var result = await _memoryCache.GetOrCreateAsync(cacheKey, async (entry) =>
+            var result = await _memoryCache.GetOrAddAsync(cacheKey, async (entry) =>
             {
                 entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(1);
                 var client = new HttpClient();
