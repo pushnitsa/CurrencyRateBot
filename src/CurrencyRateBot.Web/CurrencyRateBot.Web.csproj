@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CurrencyRateBot.Bot\CurrencyRateBot.Bot.csproj" />
+    <ProjectReference Include="..\CurrencyRateBot.Cache\CurrencyRateBot.Cache.csproj" />
     <ProjectReference Include="..\CurrencyRateBot.Core\CurrencyRateBot.Core.csproj" />
   </ItemGroup>
 
