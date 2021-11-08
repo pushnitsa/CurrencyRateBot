@@ -24,6 +24,7 @@ namespace CurrencyRateBot.Web
 
             services.AddTransient<CurrencyRateService>();
 
+            services.AddBot(Configuration);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

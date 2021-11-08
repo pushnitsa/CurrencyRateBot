@@ -1,9 +1,9 @@
-﻿using Microsoft.Extensions.Options;
 using System;
 using System.IO;
 using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Options;
 
 namespace CurrencyRateBot.Web.Service
 {
