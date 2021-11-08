@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution 
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		Dockerfile = Dockerfile
+		Readme.md = Readme.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyRateBot.Tests", "tests\CurrencyRateBot.Tests\CurrencyRateBot.Tests.csproj", "{EC51BE13-6B31-43F5-BD5F-98CC0C6A78A9}"
